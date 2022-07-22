@@ -4,6 +4,7 @@ module.exports = {
         ['link', { rel: 'icon', href: '/favicons/favicon-16x16.png', type: 'image/png', sizes: '16x16'}]
     ],
     port: 9090,
+    base:"/longweixia/",
     locales: { // 站点多语言配置
         '/': {
             lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
