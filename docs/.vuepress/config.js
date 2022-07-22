@@ -1,8 +1,38 @@
 module.exports = {
     title: '文档管理',
     head: [
-        ['link', { rel: 'icon', href: '/favicons/favicon-16x16.png', type: 'image/png', sizes: '16x16'}]
-    ],
+    
+		[
+			'script',
+			{
+				src:
+					'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js',
+			},
+		],
+		[
+			'script',
+			{
+				src:
+					'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js',
+			},
+		],
+		[
+			'link',
+			{
+				rel: 'stylesheet',
+				type: 'text/css',
+				href:
+					'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css',
+			},
+		],
+		[
+			'link',
+			{
+				rel: 'icon',
+				href: `/favicon.ico`,
+			},
+		],
+	],
     port: 9090,
     base:"/longweixia/",
     locales: { // 站点多语言配置
